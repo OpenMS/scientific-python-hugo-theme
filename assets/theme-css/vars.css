@@ -1,7 +1,7 @@
 :root {
   --fontFamily: {{ .Site.Params.font.name }};
 
-  --colorPrimaryDark: #242582;
+  --colorPrimaryDark: #0c2a60;
   --colorPrimary: rgb(77, 119, 207);
   --colorPrimaryLight: rgb(77, 171, 207);
 
