@@ -10,13 +10,17 @@
     {{ if .Content }}
     {{ partial "single/content.html" . }}
     {{ end }}
-
+    
     {{ if .Site.GetPage "/news" }}
     {{ partial "news.html" . }}
     {{ end }}
-
+    
     {{ if .Site.Params.keyfeatures }}
     {{ partial "keyfeatures.html" . }}
+    {{ end }}
+    
+    {{ if .Site.Params.hero }}
+    {{ partial "pyopenms.html" . }}
     {{ end }}
 
     {{ if .Site.Params.shell }}
