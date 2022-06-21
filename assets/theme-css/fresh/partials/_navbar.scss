@@ -41,13 +41,13 @@ Navbar
         &.has-dropdown {
             padding: 10px 0;
             .navbar-link {
-                color: $muted-grey;
+                color: $blue-grey;
                 &:after {
                     top: 55%;
                     height: 0.5em;
                     width: 0.5em;
                     border-width: 2px;
-                    border-color: $muted-grey;
+                    border-color: $blue-grey;
                 }
             }
             .navbar-dropdown {
@@ -61,9 +61,9 @@ Navbar
             }
             &:hover {
                 .navbar-link {
-                    color: $secondary;
+                    color: $primary;
                     &:after {
-                        border-color: $secondary;
+                        border-color: $primary;
                     }
                 }
             }
