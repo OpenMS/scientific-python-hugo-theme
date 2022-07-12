@@ -11,10 +11,15 @@ Normal Button
 Download Button
 {{< /button >}}
 
+{{< button github link >}}
+Github Button
+{{< /button >}}
+
 */}}
 
 <button class="btn" style="width:100%" onclick="location.href='{{ .Get 1 }}'" type="button">
-    {{ if eq (.Get 0) "download" }}<i class="fa fa-{{ .Get 0 }}"></i> {{ end }}
+    <!-- {{ if eq (.Get 0) "download" }} {{ end }} -->
+    <i class="fa fa-{{ .Get 0 }}"></i>
     {{ .Inner | markdownify }}
 </button>
 
