@@ -17,7 +17,7 @@
   {{ range .Pages }}
   <div class="post-list">
     <article>
-      <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+      <div class="post-title"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></div>
       <div class="post-authors">
         {{- range .Params.Authors -}}
         <div class="post-author">{{ . }}</div>

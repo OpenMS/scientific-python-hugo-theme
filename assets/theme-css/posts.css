@@ -1,6 +1,11 @@
 .post-list article {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.post-list .post-title h3 {
+  padding: 0;
+  margin: 0%;
 }
 
 .post-list .post-title {

@@ -17,9 +17,10 @@ Github Button
 
 */}}
 
-<button class="btn" style="width:100%" onclick="location.href='{{ .Get 1 }}'" type="button">
+<center>
+<button class="btn" style="width:auto" onclick="location.href='{{ .Get 1 }}'" type="button">
     <!-- {{ if eq (.Get 0) "download" }} {{ end }} -->
     <i class="fa fa-{{ .Get 0 }}"></i>
     {{ .Inner | markdownify }}
 </button>
-
+</center>
