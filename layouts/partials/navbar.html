@@ -42,7 +42,7 @@
         </div>
         {{- else if .button }}
         <a href="{{ .url }}" class="navbar-item">
-          <span class="button rounded secondary-btn raised" style="background-color: #0c2a60; color: azure;">
+          <span class="button rounded secondary-btn raised" style="background-color: var(--colorPrimaryDarkBtn); color: azure;">
             {{ .title }}
             {{ if .is_external }}{{ partial "svg-icon" "launch" }}{{ end }}
           </span>
