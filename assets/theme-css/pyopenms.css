@@ -1,4 +1,10 @@
-@import url(//fonts.googleapis.com/css?family=Vibur);
+.pyopenms-img {
+  height: 30% !important;
+  top: 90px !important;
+  width: 350px !important;
+}
+
+/* @import url(//fonts.googleapis.com/css?family=Vibur);
 
 .logo-pyopenms {
   text-align: center;
@@ -56,4 +62,4 @@
     color: inherit;
     text-shadow: inherit;
   }
-}
+} */
