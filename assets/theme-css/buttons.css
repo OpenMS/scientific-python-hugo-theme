@@ -1,7 +1,7 @@
 .btn {
     background-color: var(--colorPrimaryDarkBtn);
     border: none;
-    color: white;
+    color: white !important;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
@@ -9,6 +9,6 @@
   }
   
   /* Darker background on mouse-over */
-  .btn:hover {
+  /* .btn:hover {
     background-color: var(--colorPrimaryLight);
-  }
+  } */
