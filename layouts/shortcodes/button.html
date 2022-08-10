@@ -22,8 +22,8 @@ Rocket Button
 */}}
 
 <center style="margin: 1rem;">
-    <a class="btn" href='{{ .Get 1 }}' target="_blank">
-        <i class="fa fa-{{ .Get 0 }}"></i>
-        &nbsp&nbsp{{ .Inner | markdownify }}
+    <a class="btn" href='{{ .Get 1 }}' target="_blank" style="color: #fff;">
+        <i class="fa fa-{{ .Get 0 }}" style="margin-right: 0.5rem;"></i>
+        {{ .Inner | markdownify }}
     </a>
 </center>
