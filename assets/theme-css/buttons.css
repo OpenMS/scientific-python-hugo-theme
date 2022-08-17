@@ -7,9 +7,16 @@
     border-radius: 25px;
   }
   
+  .icon-img {
+    margin-right: 0.5rem;
+  }
+
   @media (max-width: 400px) {
-    .icon-btn-mobile {
+    .icon-btn {
       padding: 0.5rem;
       font-size: 1rem;
+    }
+    .icon-img {
+      margin-right: 0.25rem;
     }
   }
