@@ -19,28 +19,12 @@
     {{ partial "keyfeatures.html" . }}
     {{ end }}
     
-    {{ if .Site.Params.hero }}
-    {{ partial "apply-workflows.html" . }}
-    {{ end }}
-    
-    {{ if .Site.Params.hero }}
-    {{ partial "create-workflows.html" . }}
-    {{ end }}
-    
-    {{ if .Site.Params.hero }}
-    {{ partial "pyopenms.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.hero }}
-    {{ partial "highPerformanceAlgorithms.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.hero }}
-    {{ partial "largeDatasets.html" . }}
+    {{ if .Site.Params.heroGroup }}
+    {{ partial "heroitems.html" . }}
     {{ end }}
     
     {{ partial "quick-facts.html" . }}
-    
+
     {{ if .Site.Params.shell }}
     {{ partial "shell.html" . }}
     {{ end }}
