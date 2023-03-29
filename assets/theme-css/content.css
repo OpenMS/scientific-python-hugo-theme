@@ -24,11 +24,12 @@
 .content-container .divider {
     height: 3px;
     border-radius: 50px;
-    background: var(--colorPrimaryDark);
+    background: #1e0010;
     width: 60px;
-    &.is-centered {
-        margin: 0 auto;
-    }
+}
+
+.is-centered {
+    margin: 0 auto;
 }
 
 .content-container h1 {
@@ -59,7 +60,8 @@
     text-transform: uppercase;
     letter-spacing: 1.2px;
     font-weight: bold;
-    margin-top: 23px;
+    margin-top: 40px;
+    margin-bottom: -10px;
 }
 
 .content-container h5 {
